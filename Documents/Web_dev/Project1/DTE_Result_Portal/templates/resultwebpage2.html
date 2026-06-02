@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <title>DTE RESULT PORTAL</title>
-    <link rel="stylesheet" href="resultwepage2.css" />
+    <link rel="stylesheet"
+      href="{{ url_for('static', filename='css/resultwepage2.css') }}">
   </head>
 
   <body>
@@ -61,6 +62,6 @@
         </tr>
       </table>
     </div>
-    <script src="resultwebpage.js"></script>
+    <script src="{{ url_for('static', filename='js/resultwebpage.js') }}"></script>
   </body>
 </html>

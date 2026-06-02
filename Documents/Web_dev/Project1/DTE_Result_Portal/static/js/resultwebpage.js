@@ -35,12 +35,11 @@ const students = {
 
 const regno = localStorage.getItem("regno");
 
-if (!regno || !students[regno]) {
-  alert("Invalid Register Number");
-  window.location.href = "resultwebpage.html";
-}
+
 
 const student = students[regno];
+
+
 
 document.getElementById("Name").innerHTML = student.name;
 document.getElementById("regno").innerHTML = regno;

@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <title>DTE RESULT PORTAL</title>
-    <link rel="stylesheet" href="resultwebpage.css" />
+    <link rel="stylesheet"
+      href="{{ url_for('static', filename='css/resultwebpage.css') }}">
   </head>
 
   <body>
@@ -33,6 +34,6 @@
       <div id="error" style="color: red"></div>
     </div>
 
-    <script src="navigationlogic.js"></script>
+    <script src="{{ url_for('static', filename='js/navigationlogic.js') }}"></script>
   </body>
 </html>
