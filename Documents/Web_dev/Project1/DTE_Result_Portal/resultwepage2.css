@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bpmf+Zihi+Kai+Std&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Namdhinggo&display=swap");
+* {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  position: relative;
+}
+
+body::before {
+  content: "";
+  background: url("https://upload.wikimedia.org/wikipedia/commons/2/2b/Vidhana_Souda_%2C_Bangalore.jpg")
+    no-repeat center / cover;
+
+  position: fixed; /* better than absolute */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  opacity: 0.7;
+  z-index: -1;
+}
+header {
+  border-radius: 15px;
+  background: transparent;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 2px;
+  /* width: 50vw; */
+  height: auto;
+  box-shadow: 0px 3px 15px #2b2e2c;
+  overflow: clip;
+  box-sizing: border-box;
+}
+header img {
+  float: right;
+  padding: 2px;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-right: 26px;
+  background-color: transparent;
+  box-shadow: 0px 3px 15px #2b2e2c;
+  border-radius: 25px;
+}
+
+table {
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50vw;
+  background: transparent;
+}
+th,
+td {
+  padding: 15px;
+  border: 1px solid black;
+  text-align: center;
+}
+#containar {
+  border: 2px solid black;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  width: 66vw;
+  margin-top: 15px;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 15px #2b2e2c;
+  background: linear-gradient(75deg, #0cd2c5c8, #c2379dbc);
+}
+#info {
+  font-size: 28px;
+}

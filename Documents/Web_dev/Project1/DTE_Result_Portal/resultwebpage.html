@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DTE RESULT PORTAL</title>
+    <link rel="stylesheet" href="resultwebpage.css" />
+  </head>
+
+  <body>
+    <header>
+      <img
+        src="https://dtek.karnataka.gov.in/uploads/dept_logo1756810464.png"
+        width="130px"
+      />
+      <h1>DEPARTMENT OF TECHNICAL EDUCATION</h1>
+      <h2>DIPLOMA EXAMINATION RESULTS</h2>
+    </header>
+
+    <h2>DECEMBER–2025 EXAMINATION</h2>
+
+    <div class="containar">
+      <form id="resultForm" autocomplete="off">
+        <label>Register Number</label><br />
+        <input type="text" id="registerno" placeholder="Enter Your Register No"/><br /><br />
+
+        <label>Date of Birth</label><br />
+        <input type="date" /><br /><br />
+
+        <button type="submit" id="submit">View Result</button>
+        <input type="reset" />
+      </form>
+
+      <div id="error" style="color: red"></div>
+    </div>
+
+    <script src="navigationlogic.js"></script>
+  </body>
+</html>
